@@ -1,0 +1,76 @@
+Files already downloaded and verified
+Files already downloaded and verified
+torch.Size([50000, 3, 32, 32])
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR.py:148: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(w, init_gain)
+CIFAR.py:186: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(E[layer].weight, g)
+CIFAR.py:210: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(G[layer].weight, g)
+CIFAR.py:235: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(D[layer].weight, g)
+CIFAR.py:272: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(layer.weight, g)
+epoch:   0%|                                                                                                                  | 0/10 [00:00<?, ?it/s                            train     valid                                                                                                           
+adversarial_loss         0.027646  0.019722
+code_adversarial_loss    1.716707  2.668468
+code_discriminator_loss  1.384198  2.669242
+discriminator_loss       1.511767  4.925231
+reconstruction_loss      8.703279  7.795437
+epoch:  10%|██████████▌                                                                                              | 1/10 [05:17<47:35, 317.30s/it                            train     valid                                                                                                           
+adversarial_loss         0.000557  0.053584
+code_adversarial_loss    1.290084  3.324567
+code_discriminator_loss  0.909964  3.326228
+discriminator_loss       1.026217  3.695391
+reconstruction_loss      6.499103  6.767753
+epoch:  20%|█████████████████████                                                                                    | 2/10 [10:35<42:19, 317.45s/it                            train     valid                                                                                                           
+adversarial_loss         0.000326  0.010293
+code_adversarial_loss    1.211664  1.349096
+code_discriminator_loss  0.743061  1.349352
+discriminator_loss       0.835275  3.701440
+reconstruction_loss      6.009323  6.095938
+epoch:  30%|███████████████████████████████▌                                                                         | 3/10 [15:54<37:06, 318.05s/it                            train     valid                                                                                                           
+adversarial_loss         0.000187  0.033729
+code_adversarial_loss    1.168772  2.396370
+code_discriminator_loss  0.598012  2.396860
+discriminator_loss       0.707052  4.906060
+reconstruction_loss      5.748033  5.875690
+epoch:  40%|██████████████████████████████████████████                                                               | 4/10 [21:12<31:47, 317.87s/it                            train     valid                                                                                                           
+adversarial_loss         0.000150  0.031121
+code_adversarial_loss    1.042348  4.835383
+code_discriminator_loss  0.459783  4.835677
+discriminator_loss       0.604004  4.846484
+reconstruction_loss      5.535168  5.751386
+epoch:  50%|████████████████████████████████████████████████████▌                                                    | 5/10 [26:29<26:29, 317.90s/it                            train     valid                                                                                                           
+adversarial_loss         0.000135  0.021636
+code_adversarial_loss    1.024192  3.037251
+code_discriminator_loss  0.336176  3.039034
+discriminator_loss       0.516141  5.817132
+reconstruction_loss      5.388108  5.416756
+epoch:  60%|███████████████████████████████████████████████████████████████                                          | 6/10 [31:44<21:07, 316.85s/it                            train     valid                                                                                                           
+adversarial_loss         0.000112  0.035385
+code_adversarial_loss    0.820834  7.821843
+code_discriminator_loss  0.218004  7.823113
+discriminator_loss       0.437054  7.799343
+reconstruction_loss      5.273599  6.921926
+epoch:  70%|█████████████████████████████████████████████████████████████████████████▌                               | 7/10 [36:53<15:43, 314.44s/it                            train      valid                                                                                                          
+adversarial_loss         0.000176   0.009371
+code_adversarial_loss    0.905847  18.820530
+code_discriminator_loss  0.212416  18.825872
+discriminator_loss       0.364222   8.420377
+reconstruction_loss      5.255923   6.916260
+epoch:  80%|████████████████████████████████████████████████████████████████████████████████████                     | 8/10 [42:01<10:25, 312.66s/it                            train     valid                                                                                                           
+adversarial_loss         0.000137  0.015795
+code_adversarial_loss    0.748799  3.362701
+code_discriminator_loss  0.134082  3.362702
+discriminator_loss       0.300578  6.956375
+reconstruction_loss      5.123481  5.589602
+epoch:  90%|██████████████████████████████████████████████████████████████████████████████████████████████▌          | 9/10 [47:10<05:11, 311.41s/it                            train     valid                                                                                                           
+adversarial_loss         0.000075  0.023212
+code_adversarial_loss    0.677217  2.614886
+code_discriminator_loss  0.103344  2.614912
+discriminator_loss       0.252097  6.695754
+reconstruction_loss      5.062931  5.391430
+epoch: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [52:18<00:00, 310.41s/it]

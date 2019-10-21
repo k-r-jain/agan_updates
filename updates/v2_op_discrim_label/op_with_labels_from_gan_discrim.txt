@@ -1,0 +1,74 @@
+kartik@level3:~/Dropbox/tmp/agan/updates$ python3 CIFAR.py 
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR.py:148: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(w, init_gain)
+CIFAR.py:186: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(E[layer].weight, g)
+CIFAR.py:210: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(G[layer].weight, g)
+CIFAR.py:235: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(D[layer].weight, g)
+CIFAR.py:266: UserWarning: nn.init.xavier_normal is now deprecated in favor of nn.init.xavier_normal_.
+  init.xavier_normal(layer.weight, g)
+epoch:   0%|                                                                                                                  | 0/10 [00:00<?, ?it/s                            train     valid                                                                                                           
+adversarial_loss         0.048256  0.011855
+code_adversarial_loss    1.140588  1.690196
+code_discriminator_loss  3.178306  0.895429
+discriminator_loss       1.545856  2.141429
+reconstruction_loss      9.826423  8.084486
+epoch:  10%|██████████▌                                                                                              | 1/10 [05:08<46:13, 308.21s/it                            train     valid                                                                                                           
+adversarial_loss         0.002683  0.022103
+code_adversarial_loss    1.171620  1.639449
+code_discriminator_loss  2.251641  1.280548
+discriminator_loss       1.040546  2.690818
+reconstruction_loss      7.689214  7.270755
+epoch:  20%|█████████████████████                                                                                    | 2/10 [10:17<41:08, 308.56s/it                            train     valid                                                                                                           
+adversarial_loss         0.001015  0.060813
+code_adversarial_loss    1.158479  1.348242
+code_discriminator_loss  2.192944  2.320019
+discriminator_loss       0.833730  3.509013
+reconstruction_loss      7.002969  8.925962
+epoch:  30%|███████████████████████████████▌                                                                         | 3/10 [15:28<36:05, 309.35s/it                            train     valid                                                                                                           
+adversarial_loss         0.000486  0.030330
+code_adversarial_loss    1.089498  1.423079
+code_discriminator_loss  1.964183  1.141917
+discriminator_loss       0.701380  3.536463
+reconstruction_loss      6.558856  6.200282
+epoch:  40%|██████████████████████████████████████████                                                               | 4/10 [20:40<31:00, 310.13s/it                            train     valid                                                                                                           
+adversarial_loss         0.000196  0.062339
+code_adversarial_loss    1.013548  1.541823
+code_discriminator_loss  1.791826  1.194122
+discriminator_loss       0.596753  5.043427
+reconstruction_loss      6.220500  6.349525
+epoch:  50%|████████████████████████████████████████████████████▌                                                    | 5/10 [25:53<25:54, 310.90s/it                            train     valid                                                                                                           
+adversarial_loss         0.000264  0.039510
+code_adversarial_loss    0.956061  1.313970
+code_discriminator_loss  1.676320  1.213280
+discriminator_loss       0.507678  5.624014
+reconstruction_loss      5.922597  6.178716
+epoch:  60%|███████████████████████████████████████████████████████████████                                          | 6/10 [31:03<20:42, 310.53s/it                            train     valid                                                                                                           
+adversarial_loss         0.000218  0.112295
+code_adversarial_loss    0.917598  1.309048
+code_discriminator_loss  1.620859  1.168838
+discriminator_loss       0.428304  6.118939
+reconstruction_loss      5.671387  6.085298
+epoch:  70%|█████████████████████████████████████████████████████████████████████████▌                               | 7/10 [36:13<15:31, 310.47s/it                            train     valid                                                                                                           
+adversarial_loss         0.000223  0.118254
+code_adversarial_loss    0.909137  1.084074
+code_discriminator_loss  1.578144  1.246654
+discriminator_loss       0.356735  6.371536
+reconstruction_loss      5.492746  5.348080
+epoch:  80%|████████████████████████████████████████████████████████████████████████████████████                     | 8/10 [41:23<10:20, 310.48s/it                            train     valid                                                                                                           
+adversarial_loss         0.000216  0.072067
+code_adversarial_loss    0.897955  1.078486
+code_discriminator_loss  1.574620  1.228457
+discriminator_loss       0.298448  6.955781
+reconstruction_loss      5.352016  5.517255
+epoch:  90%|██████████████████████████████████████████████████████████████████████████████████████████████▌          | 9/10 [46:34<05:10, 310.60s/it                            train     valid                                                                                                           
+adversarial_loss         0.000338  0.035022
+code_adversarial_loss    0.886353  1.103378
+code_discriminator_loss  1.529287  1.288707
+discriminator_loss       0.247609  6.823001
+reconstruction_loss      5.210082  5.253865
+epoch: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [51:46<00:00, 310.90s/it]
